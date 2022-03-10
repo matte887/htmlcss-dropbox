@@ -29,11 +29,23 @@ img {
     height: 100px;
     float: left;
     /* test */
-    background-color: #4285F4;
     border: 1px solid rgb(68, 68, 68);
 }
 
 /* MAIN */
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.pt-15 {
+    padding: 15em 0;
+}
+
+.title {
+
+}
+
 /* jumbotron */
 .jumbotron {
     width: 100%;
@@ -50,7 +62,8 @@ img {
     background-color: #4285F4;
 }
 
-.jumbo-title {
+.jumbo-title h1 {
+    font-size: ;
     /* test */
     background-color: #FBBC05;
     height: 200px;
@@ -71,3 +84,39 @@ img {
     height: 500px;
     background-color: #34A853;
 }
+
+/* tariff plan */
+.tariff-plan h2 {
+    /* test */
+    height: 150px;
+    background-color: #FBBC05;
+}
+
+.col-container {
+    width: 100%;
+}
+
+.col-plan {
+    width: calc(90%/3);
+    border: 1px solid black;
+    float: left;
+    /* test */
+    height: 1000px;
+}
+
+.std {
+    margin: 0 5%;
+    /* test */
+    background-color: #34A853;
+}
+
+/* test */
+.pro {
+    background-color: #4285F4;
+}
+
+.adv {
+    background-color: #EA4335;
+}
+/* /test */
+
