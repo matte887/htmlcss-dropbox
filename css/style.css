@@ -1,0 +1,20 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
