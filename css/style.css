@@ -51,7 +51,7 @@ img {
 }
 
 .col-header {
-    border: 1px solid black;
+    border: 1px solid rgb(68, 68, 68);
     /* test */
     height: 50px;
 }
@@ -76,7 +76,7 @@ img {
     background-color: #4285F4;
 }
 
-.jumbo-title h1 {
+.jumbo-title {
     font-size: ;
     /* test */
     background-color: #FBBC05;
@@ -112,7 +112,7 @@ img {
 
 .col-plan {
     width: calc(90%/3);
-    border: 1px solid black;
+    border: 1px solid rgb(68, 68, 68);
     float: left;
     /* test */
     height: 1000px;
@@ -136,7 +136,7 @@ img {
 
 /* contact */
 .contact-container {
-    border: 1px solid black;
+    border: 1px solid rgb(68, 68, 68);
     /* test */
     height: 200px;
     background-color: #FBBC05;
@@ -161,4 +161,31 @@ img {
     /* test */
     height: 550px;
     background-color: #4285F4;
+}
+
+/* Service funtions */
+.functions .title {
+    /* test */
+    background-color: #FBBC05;
+    height: 150px;
+}
+
+.card-container {
+    width: 100%;
+}
+
+.service-card {
+    width: calc(100%/3);
+    float: left;
+    /* test */
+    height: 500px;
+    background-color: #34A853;
+    border: 1px solid rgb(68, 68, 68);
+}
+
+.card-img {
+    /* test */
+    width: 100%;
+    height: 250px;
+    border-bottom: 1px solid rgb(68, 68, 68);
 }
