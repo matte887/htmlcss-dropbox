@@ -46,6 +46,10 @@ img {
     margin-top: 3em;
 }
 
+.mt-10 {
+    margin-top: 10em;
+}
+
 .col-header {
     border: 1px solid black;
     /* test */
@@ -136,4 +140,25 @@ img {
     /* test */
     height: 200px;
     background-color: #FBBC05;
+}
+
+/* Find a partner */
+.col-ptn {
+
+}
+
+.partner-img {
+    width: 65%;
+    float: left;
+    /* test */
+    height: 550px;
+    background-color: #34A853;
+}
+
+.partner-text {
+    width: 35%;
+    float: left;
+    /* test */
+    height: 550px;
+    background-color: #4285F4;
 }
