@@ -242,3 +242,10 @@ img {
 .cta .col-left, .cta .col-right {
     height: 400px;
 }
+
+/* FAQ */
+.faq .container {
+    /* test */
+    height: 800px;
+    border: 1px solid rgb(68, 68, 68)
+}
