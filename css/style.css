@@ -22,13 +22,14 @@ img {
 /* HEADER */
 .head-container{
     width: 100%;
+    height: 100px;
 }
 
-.header-col-l, .header-col-r {
+.col-left, .col-right {
     width: 50%;
-    height: 100px;
     float: left;
     /* test */
+    height: 100px;
     border: 1px solid rgb(68, 68, 68);
 }
 
@@ -227,4 +228,17 @@ img {
     height: 15vw;
     float: left;
     border: 1px solid rgb(68, 68, 68);
+}
+
+/* cta */
+.cta {
+    width: 100%;
+    background-color: #FBBC05;
+    /* test */
+    height: 400px;
+}
+
+/* test */
+.cta .col-left, .cta .col-right {
+    height: 400px;
 }
