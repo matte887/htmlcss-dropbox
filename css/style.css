@@ -196,3 +196,35 @@ img {
     height: 200px;
     background-color: #FBBC05;
 }
+
+/* Companies using Dropbox */
+.companies {
+    width: 100%;
+    margin-top: 3em;
+}
+.companies-container {
+    width: 30%;
+    float: left;
+    height: 30vw;
+    /* test */
+    background-color: #4285F4;
+}
+
+.companies-text {
+    width: 40%;
+    float: left;
+    height: 30vw;
+    /* test */
+    background-color: #34A853;
+}
+
+.companies-square {
+    width: 100%;
+}
+
+.company-card {
+    width: 50%;
+    height: 15vw;
+    float: left;
+    border: 1px solid rgb(68, 68, 68);
+}
