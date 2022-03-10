@@ -34,12 +34,22 @@ img {
 
 /* MAIN */
 .container {
-    width: 75%;
+    width: 60%;
     margin: 0 auto;
 }
 
 .pt-15 {
-    padding: 15em 0;
+    padding-top: 15em;
+}
+
+.mt-3 {
+    margin-top: 3em;
+}
+
+.col-header {
+    border: 1px solid black;
+    /* test */
+    height: 50px;
 }
 
 .title {
@@ -120,3 +130,10 @@ img {
 }
 /* /test */
 
+/* contact */
+.contact-container {
+    border: 1px solid black;
+    /* test */
+    height: 200px;
+    background-color: #FBBC05;
+}
