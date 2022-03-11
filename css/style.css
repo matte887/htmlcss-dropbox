@@ -59,6 +59,10 @@ a {
     font-size: 80%;
 }
 
+h3 {
+    font-size: 1.5em;
+}
+
 .bt {
     padding: 0.4em 1em;
     display: inline-block;
@@ -135,8 +139,11 @@ header .col-right {
     height: 50px;
 }
 
-.title {
-
+.col-header {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    border-bottom: 1px solid #d4d4d7;
 }
 
 /* jumbotron */
@@ -233,19 +240,8 @@ header .col-right {
     min-height: 900px;
 }
 
-.tariff-plan .col-header {
-    text-align: center;
-    vertical-align: middle;
-    line-height: 50px;
-    border-bottom: 1px solid #d4d4d7;
-}
-
 .plan {
     padding: 1em;
-}
-
-.plan h3 {
-    font-size: 1.5em;
 }
 
 .plan h4 {
@@ -284,26 +280,25 @@ header .col-right {
 
 .std {
     margin: 0 5%;
-    /* test */
-    /* background-color: #34A853; */
 }
-
-/* test */
-.pro {
-    /* background-color: #4285F4; */
-}
-
-.adv {
-    /* background-color: #EA4335; */
-}
-/* /test */
 
 /* contact */
 .contact-container {
-    border: 1px solid rgb(68, 68, 68);
-    /* test */
-    height: 200px;
-    background-color: #FBBC05;
+    border: 1px solid #d4d4d7;
+}
+
+.team-left {
+    width: 70%;
+    padding: 1em;
+}
+
+.team-right {
+    width: 30%;
+    text-align: center;
+}
+
+.sales-contact {
+    padding: 0.6em 4em;
 }
 
 /* Find a partner */
