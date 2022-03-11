@@ -43,8 +43,16 @@ a {
     color: white;
 }
 
+.text-grey{
+    color: #687785;
+}
+
 .text-black {
     color: black;
+}
+
+.text-s {
+    font-size: 80%;
 }
 
 .bt {
@@ -120,8 +128,6 @@ header .col-right {
 }
 
 .col-header {
-    border: 1px solid rgb(68, 68, 68);
-    /* test */
     height: 50px;
 }
 
@@ -181,10 +187,36 @@ header .col-right {
     padding-top: 15em;
 }
 
-.tariff-plan h2 {
+.tariff-head {
     /* test */
-    height: 150px;
     background-color: #FBBC05;
+}
+
+.tariff-plan h2 {
+    font-size: 2.4em;
+}
+
+.tariff-plan .dot {
+    display: inline-block;
+    border: 1px solid #d4d4d7;
+    height: 1em;
+    width: 1em;
+    border-radius: 50%;
+    vertical-align: middle;
+    background-color: #0061ff;
+    position: relative;
+}
+
+.white-dot {
+    display: inline-block;
+    height: .5em;
+    width: .5em;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .col-container {
@@ -194,9 +226,35 @@ header .col-right {
 .col-plan {
     width: calc(90%/3);
     border: 1px solid rgb(68, 68, 68);
-    float: left;
     /* test */
     height: 1000px;
+}
+
+.tariff-plan .col-header {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    border: 1px solid #d4d4d7;
+}
+
+.tariff-plan .plan {
+    padding: 1em;
+}
+
+.tariff-plan .plan h3 {
+    font-size: 1.5em;
+}
+
+.tariff-plan .price {
+    font-weight: bold;
+}
+
+.tariff-plan .try-free {
+    text-align: center;
+}
+
+.tariff-plan .try-free a {
+    padding: 0.6em 4em;
 }
 
 .std {
