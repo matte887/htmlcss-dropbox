@@ -47,7 +47,8 @@ a {
 }
 
 .bt {
-    padding: 0.2em 1em;
+    padding: 0.4em 1em;
+    display: inline-block;
 }
 
 .bt-blue {
@@ -60,6 +61,7 @@ header nav {
     height: 80px;
     line-height: 80px;
     position: fixed;
+    z-index: 100;
     background-color: white;
 }
 
@@ -91,6 +93,7 @@ header li {
     margin-right: 1em;
     height: 60px;
     display: inline-block;
+    line-height: normal;
 }
 
 header .col-right {
@@ -101,6 +104,10 @@ header .col-right {
 .container {
     width: 60%;
     margin: 0 auto;
+}
+
+.mt-1 {
+    margin-top: 1em;
 }
 
 .mt-3 {
@@ -124,40 +131,58 @@ header .col-right {
 /* jumbotron */
 .jumbotron {
     width: 100%;
-    height: 90vh;
-    padding: 7em 0;
+    /* height: 90vh; */
+    /* padding: 7em 0; */
     background-color: #b4d0e6;
 }
 
 .jumbo-container {
     width: 80%;
-    /* max-width: 1200px; */
     margin: 0 auto;
+    position: relative;
+    bottom: -100px;
+    /* max-width: 1200px; */
     /* test */
-    height: 700px;
+    /* height: 700px; */
     /* background-color: #4285F4; */
 }
 
 .jumbo-title {
     font-size: 4.8em;
-    padding-bottom: 0.5em;
+    /* padding-bottom: 0.5em; */
+    /* test */
+    padding-bottom: .5em;
 }
 
 .jumbo-text {
     width: 35%;
-    float: left;
     /* test */
-    height: 500px;
+    /* height: 500px; */
     /* background-color: #4285F4; */
+}
+
+.jumbotron .down-arrow i {
+    font-size: 2em;
+    color: black;
+    margin-top: 1em;
 }
 
 .jumbo-text p {
     padding-right: 4.6em;
 }
 
+.jumbotron span {
+    display: inline-block;
+    margin-top: 0.5em;
+}
+
+.jumbotron .bt {
+    display: inline-block;
+}
+
 .jumbo-img {
     width: 65%;
-    float: left;
+    position: relative;
     /* test */
     /* height: 500px; */
     /* background-color: #34A853; */
