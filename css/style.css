@@ -25,7 +25,7 @@ img {
     float: right;
 }
 
-.clearfix {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -49,6 +49,10 @@ a {
 
 .text-black {
     color: black;
+}
+
+.color-blue {
+    color: #0061ff;
 }
 
 .text-s {
@@ -237,24 +241,28 @@ header .col-right {
     border: 1px solid #d4d4d7;
 }
 
-.tariff-plan .plan {
+.plan {
     padding: 1em;
 }
 
-.tariff-plan .plan h3 {
+.plan h3 {
     font-size: 1.5em;
 }
 
-.tariff-plan .price {
+.plan .price {
     font-weight: bold;
 }
 
-.tariff-plan .try-free {
+.plan .try-free {
     text-align: center;
 }
 
-.tariff-plan .try-free a {
+.plan .try-free a {
     padding: 0.6em 4em;
+}
+
+.plan .color-blue {
+    text-decoration: underline;
 }
 
 .std {
