@@ -191,11 +191,6 @@ header .col-right {
     padding-top: 15em;
 }
 
-.tariff-head {
-    /* test */
-    background-color: #FBBC05;
-}
-
 .tariff-plan h2 {
     font-size: 2.4em;
 }
@@ -213,8 +208,8 @@ header .col-right {
 
 .white-dot {
     display: inline-block;
-    height: .5em;
-    width: .5em;
+    height: .4em;
+    width: .4em;
     border-radius: 50%;
     background-color: white;
     position: absolute;
@@ -229,16 +224,20 @@ header .col-right {
 
 .col-plan {
     width: calc(90%/3);
-    border: 1px solid rgb(68, 68, 68);
+    border: 1px solid #d4d4d7;
     /* test */
-    height: 1000px;
+    /* height: 1000px; */
+}
+
+.col-plan.min-height{
+    min-height: 900px;
 }
 
 .tariff-plan .col-header {
     text-align: center;
     vertical-align: middle;
     line-height: 50px;
-    border: 1px solid #d4d4d7;
+    border-bottom: 1px solid #d4d4d7;
 }
 
 .plan {
@@ -278,19 +277,24 @@ header .col-right {
     color: #0061ff;
 }
 
+.spazio::after {
+    height: 50px;
+    width: 50px;
+}
+
 .std {
     margin: 0 5%;
     /* test */
-    background-color: #34A853;
+    /* background-color: #34A853; */
 }
 
 /* test */
 .pro {
-    background-color: #4285F4;
+    /* background-color: #4285F4; */
 }
 
 .adv {
-    background-color: #EA4335;
+    /* background-color: #EA4335; */
 }
 /* /test */
 
