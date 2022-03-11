@@ -302,24 +302,21 @@ header .col-right {
 }
 
 /* Find a partner */
-.col-ptn {
-
-}
-
 .partner-img {
-    width: 65%;
+    width: 60%;
     float: left;
-    /* test */
-    height: 550px;
-    background-color: #34A853;
 }
 
 .partner-text {
-    width: 35%;
+    width: 40%;
     float: left;
-    /* test */
-    height: 550px;
-    background-color: #4285F4;
+    padding-top: 2em;
+    padding-left: 2em;
+}
+
+.find-partner a {
+    padding: 0.5em 1em;
+    border: 1px solid black;
 }
 
 /* Service funtions */
