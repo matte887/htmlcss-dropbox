@@ -249,7 +249,7 @@ header .col-right {
     font-size: 1.5em;
 }
 
-.plan .price {
+.plan h4 {
     font-weight: bold;
 }
 
@@ -263,6 +263,19 @@ header .col-right {
 
 .plan .color-blue {
     text-decoration: underline;
+}
+
+.hr {
+    border-bottom: 1px solid #d4d4d7;
+    padding-bottom: 2em;
+}
+
+.plan-list {
+    padding: 1em;
+}
+
+.plan-list .check {
+    color: #0061ff;
 }
 
 .std {
