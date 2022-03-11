@@ -59,6 +59,10 @@ a {
     font-size: 80%;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 h2 {
     font-size: 2.4em;
 }
@@ -333,17 +337,6 @@ header .col-right {
 .card-img {
     /* test */
     width: 100%;
-}
-
-.card-text .underline {
-    text-decoration: underline;
-}
-
-/* Claim */
-.claim .container {
-    /* test */
-    height: 200px;
-    background-color: #FBBC05;
 }
 
 /* Companies using Dropbox */
