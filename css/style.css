@@ -331,6 +331,10 @@ header .col-right {
     border: 1px solid black;
 }
 
+.find-partner a:hover {
+    background-color: rgb(245, 245, 245);
+}
+
 /* Service funtions */
 .card-container {
     width: 100%;
@@ -438,12 +442,13 @@ header .col-right {
     margin: 9em 0em 0em 15em;
 }
 
+.cta a:hover {
+    background-color: rgb(245, 245, 245);
+}
+
 /* FAQ */
 .faq .container {
     padding-bottom: 3em;
-    /* test */
-    /* height: 800px; */
-    /* border: 1px solid rgb(68, 68, 68) */
 }
 
 .faq h2 {
@@ -466,10 +471,6 @@ header .col-right {
 .question {
     width: 95%;
     font-weight: bold;
-}
-
-.angle-down {
-    text-align: right;
 }
 
 .text {
