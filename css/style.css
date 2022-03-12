@@ -251,6 +251,17 @@ header .col-right {
     font-weight: bold;
 }
 
+.col-plan li {
+    position: relative;
+    padding-left: 1.4em;
+}
+
+.col-plan li i {
+    position: absolute;
+    top: .2em;
+    left: 0;
+}
+
 .plan .try-free {
     text-align: center;
 }
