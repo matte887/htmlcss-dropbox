@@ -425,14 +425,17 @@ header .col-right {
 .cta {
     width: 100%;
     background-color: #b4d0e6;
-    /* test */
-    height: 400px;
 }
 
-/* test */
-.cta .col-left, .cta .col-right {
-    height: 400px;
-    border: 1px solid red;
+.cta h2 {
+    padding: 3em 0em 3em 7em;
+    color: #61082b;
+}
+
+.cta a {
+    background-color: white;
+    padding: .4em 4em;
+    margin: 9em 0em 0em 15em;
 }
 
 /* FAQ */
