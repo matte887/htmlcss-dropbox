@@ -86,6 +86,10 @@ h3 {
     background-color: #0061ff;
 }
 
+.bt-blue:hover {
+    background-color: #1f75ff;
+}
+
 /* HEADER */
 header nav {
     width: 100%;
