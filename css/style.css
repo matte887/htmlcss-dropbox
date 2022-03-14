@@ -84,6 +84,7 @@ h3 {
 
 .bt-blue {
     background-color: #0061ff;
+    transition: .3s;
 }
 
 .bt-blue:hover {
@@ -362,6 +363,7 @@ input[type="radio"]:checked {
 .find-partner a {
     padding: 0.5em 1em;
     border: 1px solid black;
+    transition: .3s;
 }
 
 .find-partner a:hover {
@@ -473,6 +475,7 @@ input[type="radio"]:checked {
     background-color: white;
     padding: .4em 4em;
     margin: 9em 0em 0em 15em;
+    transition: .3s;
 }
 
 .cta a:hover {
@@ -500,6 +503,7 @@ input[type="radio"]:checked {
 
 .question, .angle-down {
     display: inline-block;
+    transition: .3s;
 }
 
 .question {
