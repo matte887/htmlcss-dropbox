@@ -100,7 +100,6 @@ header nav {
     background-color: white;
 }
 
-/* da capire */
 .menu > li {
     line-height: 78px;
 }
@@ -138,7 +137,7 @@ header .col-right {
 
 /* header:hover */
 header .menu > li:hover {
-    border-bottom: 2px solid #0061ff;
+    border-bottom: 2px solid black;
 }
 
 .submenu li {
@@ -258,6 +257,10 @@ input[type="radio"] {
     height: 1.5em;
     border: 1px solid #cfcfcf;
     vertical-align: middle;
+}
+
+input[type="radio"], label {
+    cursor: pointer;
 }
 
 input[type="radio"]:checked {
