@@ -556,3 +556,7 @@ footer li {
     width: 125px;
     padding: 3em 0
 }
+
+footer a:hover {
+    text-decoration: underline;
+}
