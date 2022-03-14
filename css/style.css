@@ -248,27 +248,23 @@ header .menu > li:hover {
     padding-top: 15em;
 }
 
-.tariff-plan .dot {
-    display: inline-block;
-    border: 1px solid #cfcfcf;
-    height: 1em;
-    width: 1em;
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     border-radius: 50%;
+    width: 1.5em;
+    height: 1.5em;
+    border: 1px solid #cfcfcf;
     vertical-align: middle;
-    background-color: #0061ff;
-    position: relative;
 }
 
-.white-dot {
-    display: inline-block;
-    height: .4em;
-    width: .4em;
-    border-radius: 50%;
-    background-color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+input[type="radio"]:checked {
+    border: 6px solid #0061ff;
+}
+
+#plan2 {
+    margin-left: 1em;
 }
 
 .col-container {
