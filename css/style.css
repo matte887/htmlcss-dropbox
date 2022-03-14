@@ -42,6 +42,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 .text-white {
@@ -49,7 +50,7 @@ a {
 }
 
 .text-grey{
-    color: #687785;
+    color: #7c7c7c;
 }
 
 .text-black {
@@ -245,10 +246,6 @@ header .col-right {
 
 .plan {
     padding: 1em;
-}
-
-.plan h4 {
-    font-weight: bold;
 }
 
 .col-plan li {
@@ -462,6 +459,7 @@ header .col-right {
 
 .faq ul:last-child {
     border-bottom: 1px solid #cfcfcf;
+    margin-bottom: 4em;
 }
 
 .question, .angle-down {
@@ -495,16 +493,26 @@ footer {
 .footer-container {
     width: 80%;
     margin: 0 auto;
-    /* test */
-    height: 500px;
 }
 
 .footer-col {
     width: calc(100%/5);
-    margin-top: 7em;
+    margin: 7em 0;
     float: left;
-    /* test */
-    height: 300px;
-    background-color: #FBBC05;
-    border: 1px solid white;
+}
+
+footer h4 {
+    font-size: 1.2em;
+    margin-bottom: .7em;
+}
+
+footer li {
+    line-height: 1.8em;
+}
+
+.bottom-border {
+    border-top: 1px solid #7c7c7c;
+    display: inline-block;
+    width: 125px;
+    padding: 3em 0
 }
