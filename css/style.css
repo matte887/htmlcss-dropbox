@@ -161,7 +161,9 @@ header .menu > li:hover {
     position: absolute;
     left: 0;
     top: 80px;
-    display: none;
+    /* display: none; */
+    opacity: 0;
+    visibility: hidden;
 }
 
 .support {
@@ -169,7 +171,11 @@ header .menu > li:hover {
 }
 
 .support:hover .submenu {
-    display: block;
+    /* display: block; */
+    opacity: 1;
+    visibility: visible;
+    transition: all .3s;
+
 }
 
 /* MAIN */
